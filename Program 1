@@ -1,0 +1,7 @@
+n=int(input("Enter any number:"))
+if n>0:
+	print("You entered a positive number...")
+elif n<0:
+	print("You entered a negative number...")
+else:
+	print("You entered zero...")
