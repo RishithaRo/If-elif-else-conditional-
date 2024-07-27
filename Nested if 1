@@ -1,0 +1,20 @@
+mat=eval(input("Enter maths marks:"))
+phy=eval(input("Enter physics marks:"))
+che=eval(input("Enter chemistry marks:"))
+if mat<35:
+	print("Failed in maths...")
+else:
+	if phy<35:
+		print("Failed in physics...")
+	else:
+		if che<35:
+			print("Failed in chemistry...")
+		else:
+			print("passed in all subjects....")
+'''____OUTPUT____
+Enter maths marks:60
+Enter physics marks:70
+Enter chemistry marks:90
+passed in all subjects....
+
+[Program finished]'''
