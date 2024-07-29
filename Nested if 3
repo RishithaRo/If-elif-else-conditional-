@@ -1,0 +1,27 @@
+n=int(input("Enter any number from 1 to 6:"))
+if n==1:
+	print("Sunday...")
+else:
+	if n==2:
+		print("Monday...")
+	else:
+		if n==3:
+			print("Tuesday...")
+		else:
+			if n==4:
+				print("Wednesday...")
+			else:
+				if n==5:
+					print("Thursday...")
+				else:
+					if n==6:
+						print("Friday...")
+					else:
+						print("you entered a number out of range....")
+						print("Please enter a number from 1 to 6....")
+'''____________OUTPUT__________
+Enter any number from 1 to 6:7
+you entered a number out of range....
+Please enter a number from 1 to 6....
+
+[Program finished]'''
